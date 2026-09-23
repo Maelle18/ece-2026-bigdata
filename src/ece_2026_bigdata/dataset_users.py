@@ -2,7 +2,7 @@ import argparse
 
 from faker import Faker
 
-from work.serialize import serialize
+from .serialize import serialize
 
 fake = Faker()
 # Generate the same dataset on every execution

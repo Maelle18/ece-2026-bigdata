@@ -4,8 +4,8 @@ import datetime
 from faker import Faker
 from faker.providers import DynamicProvider
 
-from work.dataset_users import users_generate
-from work.serialize import serialize
+from .dataset_users import users_generate
+from .serialize import serialize
 
 fake = Faker()
 # Generate the same dataset on every execution

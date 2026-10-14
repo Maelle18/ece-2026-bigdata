@@ -8,3 +8,7 @@ init.sqltarget/
 dbt_packages/
 logs/
 *.duckdb
+target/
+dbt_packages/
+logs/
+*.duckdb
